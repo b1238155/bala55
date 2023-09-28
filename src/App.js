@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
-// Define a functional React component
-function HelloWorld() {
+function App() {
+  useEffect(() => {
+    console.log("Hello from React component!");
+  }, []);
+
   return (
-    <div>
+    <div className="App">
       <h1>Hello, React!</h1>
     </div>
   );
 }
 
-export default HelloWorld;
+export default App;
