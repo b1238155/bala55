@@ -1,10 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
 function App() {
-  useEffect(() => {
-    console.log("Hello from React component!");
-  }, []);
-
   return (
     <div className="App">
       <h1>Hello, React!</h1>
