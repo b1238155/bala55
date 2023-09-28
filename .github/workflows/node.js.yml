@@ -3,7 +3,7 @@ name: Run React Component
 on:
   push:
     branches:
-      - main
+      - github actions
 
 jobs:
   build:
